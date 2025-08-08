@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E74FF9922E46720300DD1BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74FF97C2E46720100DD1BA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74FF9832E46720100DD1BA8;
+			remoteInfo = "My Boris Bikes";
+		};
+		E74FF99C2E46720300DD1BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74FF97C2E46720100DD1BA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74FF9832E46720100DD1BA8;
+			remoteInfo = "My Boris Bikes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E74FF9842E46720100DD1BA8 /* My Boris Bikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Boris Bikes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74FF9912E46720300DD1BA8 /* My Boris BikesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Boris BikesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74FF99B2E46720300DD1BA8 /* My Boris BikesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Boris BikesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E74FF9862E46720100DD1BA8 /* My Boris Bikes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "My Boris Bikes";
+			sourceTree = "<group>";
+		};
+		E74FF9942E46720300DD1BA8 /* My Boris BikesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "My Boris BikesTests";
+			sourceTree = "<group>";
+		};
+		E74FF99E2E46720300DD1BA8 /* My Boris BikesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "My Boris BikesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74FF9812E46720100DD1BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74FF98E2E46720300DD1BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74FF9982E46720300DD1BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E74FF97B2E46720100DD1BA8 = {
+			isa = PBXGroup;
+			children = (
+				E74FF9862E46720100DD1BA8 /* My Boris Bikes */,
+				E74FF9942E46720300DD1BA8 /* My Boris BikesTests */,
+				E74FF99E2E46720300DD1BA8 /* My Boris BikesUITests */,
+				E74FF9852E46720100DD1BA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E74FF9852E46720100DD1BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74FF9842E46720100DD1BA8 /* My Boris Bikes.app */,
+				E74FF9912E46720300DD1BA8 /* My Boris BikesTests.xctest */,
+				E74FF99B2E46720300DD1BA8 /* My Boris BikesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E74FF9832E46720100DD1BA8 /* My Boris Bikes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74FF9A52E46720300DD1BA8 /* Build configuration list for PBXNativeTarget "My Boris Bikes" */;
+			buildPhases = (
+				E74FF9802E46720100DD1BA8 /* Sources */,
+				E74FF9812E46720100DD1BA8 /* Frameworks */,
+				E74FF9822E46720100DD1BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E74FF9862E46720100DD1BA8 /* My Boris Bikes */,
+			);
+			name = "My Boris Bikes";
+			packageProductDependencies = (
+			);
+			productName = "My Boris Bikes";
+			productReference = E74FF9842E46720100DD1BA8 /* My Boris Bikes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E74FF9902E46720300DD1BA8 /* My Boris BikesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74FF9A82E46720300DD1BA8 /* Build configuration list for PBXNativeTarget "My Boris BikesTests" */;
+			buildPhases = (
+				E74FF98D2E46720300DD1BA8 /* Sources */,
+				E74FF98E2E46720300DD1BA8 /* Frameworks */,
+				E74FF98F2E46720300DD1BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74FF9932E46720300DD1BA8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E74FF9942E46720300DD1BA8 /* My Boris BikesTests */,
+			);
+			name = "My Boris BikesTests";
+			packageProductDependencies = (
+			);
+			productName = "My Boris BikesTests";
+			productReference = E74FF9912E46720300DD1BA8 /* My Boris BikesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E74FF99A2E46720300DD1BA8 /* My Boris BikesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74FF9AB2E46720300DD1BA8 /* Build configuration list for PBXNativeTarget "My Boris BikesUITests" */;
+			buildPhases = (
+				E74FF9972E46720300DD1BA8 /* Sources */,
+				E74FF9982E46720300DD1BA8 /* Frameworks */,
+				E74FF9992E46720300DD1BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74FF99D2E46720300DD1BA8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E74FF99E2E46720300DD1BA8 /* My Boris BikesUITests */,
+			);
+			name = "My Boris BikesUITests";
+			packageProductDependencies = (
+			);
+			productName = "My Boris BikesUITests";
+			productReference = E74FF99B2E46720300DD1BA8 /* My Boris BikesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74FF97C2E46720100DD1BA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					E74FF9832E46720100DD1BA8 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					E74FF9902E46720300DD1BA8 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E74FF9832E46720100DD1BA8;
+					};
+					E74FF99A2E46720300DD1BA8 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E74FF9832E46720100DD1BA8;
+					};
+				};
+			};
+			buildConfigurationList = E74FF97F2E46720100DD1BA8 /* Build configuration list for PBXProject "My Boris Bikes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E74FF97B2E46720100DD1BA8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E74FF9852E46720100DD1BA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74FF9832E46720100DD1BA8 /* My Boris Bikes */,
+				E74FF9902E46720300DD1BA8 /* My Boris BikesTests */,
+				E74FF99A2E46720300DD1BA8 /* My Boris BikesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E74FF9822E46720100DD1BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74FF98F2E46720300DD1BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74FF9992E46720300DD1BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74FF9802E46720100DD1BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74FF98D2E46720300DD1BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74FF9972E46720300DD1BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E74FF9932E46720300DD1BA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74FF9832E46720100DD1BA8 /* My Boris Bikes */;
+			targetProxy = E74FF9922E46720300DD1BA8 /* PBXContainerItemProxy */;
+		};
+		E74FF99D2E46720300DD1BA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74FF9832E46720100DD1BA8 /* My Boris Bikes */;
+			targetProxy = E74FF99C2E46720300DD1BA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E74FF9A32E46720300DD1BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SJ8X4DLAN9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E74FF9A42E46720300DD1BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SJ8X4DLAN9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E74FF9A62E46720300DD1BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJ8X4DLAN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.skynolimit.myborisbikes.My-Boris-Bikes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E74FF9A72E46720300DD1BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJ8X4DLAN9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.skynolimit.myborisbikes.My-Boris-Bikes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E74FF9A92E46720300DD1BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJ8X4DLAN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.skynolimit.myborisbikes.My-Boris-BikesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Boris Bikes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/My Boris Bikes";
+			};
+			name = Debug;
+		};
+		E74FF9AA2E46720300DD1BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJ8X4DLAN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.skynolimit.myborisbikes.My-Boris-BikesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Boris Bikes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/My Boris Bikes";
+			};
+			name = Release;
+		};
+		E74FF9AC2E46720300DD1BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJ8X4DLAN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.skynolimit.myborisbikes.My-Boris-BikesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Boris Bikes";
+			};
+			name = Debug;
+		};
+		E74FF9AD2E46720300DD1BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJ8X4DLAN9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.skynolimit.myborisbikes.My-Boris-BikesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Boris Bikes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74FF97F2E46720100DD1BA8 /* Build configuration list for PBXProject "My Boris Bikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74FF9A32E46720300DD1BA8 /* Debug */,
+				E74FF9A42E46720300DD1BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74FF9A52E46720300DD1BA8 /* Build configuration list for PBXNativeTarget "My Boris Bikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74FF9A62E46720300DD1BA8 /* Debug */,
+				E74FF9A72E46720300DD1BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74FF9A82E46720300DD1BA8 /* Build configuration list for PBXNativeTarget "My Boris BikesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74FF9A92E46720300DD1BA8 /* Debug */,
+				E74FF9AA2E46720300DD1BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74FF9AB2E46720300DD1BA8 /* Build configuration list for PBXNativeTarget "My Boris BikesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74FF9AC2E46720300DD1BA8 /* Debug */,
+				E74FF9AD2E46720300DD1BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E74FF97C2E46720100DD1BA8 /* Project object */;
+}
