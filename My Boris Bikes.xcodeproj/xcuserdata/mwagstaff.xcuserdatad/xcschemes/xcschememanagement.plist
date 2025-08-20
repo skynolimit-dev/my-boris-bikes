@@ -4,10 +4,58 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>My Boris Bikes.xcscheme_^#shared#^_</key>
+		<key>My Boris Bikes Watch App Extension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>My Boris Bikes Watch Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>My Boris Bikes.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E74FF9832E46720100DD1BA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E74FF9902E46720300DD1BA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E74FF99A2E46720300DD1BA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E74FF9B12E46798800DD1BA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E74FF9BD2E46798900DD1BA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E74FF9C72E46798900DD1BA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E7544E6A2E48175C00B3F29D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

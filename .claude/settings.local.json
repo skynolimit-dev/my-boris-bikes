@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild:*)",
+      "Bash(find:*)",
+      "Bash(xcrun simctl install:*)",
+      "Bash(xcrun simctl boot:*)",
+      "Bash(xcrun simctl launch:*)",
+      "Bash(xcrun simctl spawn:*)",
+      "Bash(timeout 120 xcodebuild:*)",
+      "Bash(gtimeout:*)",
+      "Bash(cp:*)",
+      "Bash(sed:*)"
+    ],
+    "deny": []
+  }
+}

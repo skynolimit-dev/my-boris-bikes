@@ -9,6 +9,13 @@ import SwiftUI
 
 @main
 struct My_Boris_BikesApp: App {
+    init() {
+        // Initialize WatchConnectivity
+        #if os(iOS)
+        FavoritesService.shared.setupWatchConnectivity()
+        #endif
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
